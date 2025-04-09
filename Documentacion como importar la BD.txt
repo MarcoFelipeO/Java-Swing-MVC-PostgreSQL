@@ -1,0 +1,12 @@
+-Para poder utilizar la base de datos de joyería, debemos con este comando;
+
+-Desde CMD o PowerShell;
+
+-Entrar a la ruta donde esta el archivo joyeria_backup.sql, la contraseña de la BD es 9094;
+
+psql -U postgres -d joyeria -f joyeria_backup.sql
+
+--Adentro viene el .jar ejecutable y el otro que viene con todas las librerías cargadas.
+
+
+
